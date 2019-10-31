@@ -1,0 +1,1 @@
+web: gunicorn TicTacToeOnline.wsgi:application --log-file -
