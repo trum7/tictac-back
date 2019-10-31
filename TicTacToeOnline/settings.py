@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'TicTacToeOnline.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tictac',
-        'USER': 'camilo',
-        'PASSWORD': 'PWhffn23pPmLkBqY',
-        'HOST': '104.154.146.1',
+        'NAME': 'd7jolg6dof4eq7',
+        'USER': 'idmpmrscdznwwy',
+        'PASSWORD': 'cdb49d98cc24c2d6f9ecca7d7cecb67a19fe7468acd52a29b8c8a2ed2ef4e10f',
+        'HOST': 'ec2-54-204-14-96.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -128,4 +128,4 @@ STATIC_URL = '/static/'
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
-#DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)

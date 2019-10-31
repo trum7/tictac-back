@@ -10,8 +10,8 @@ def new(request, session):
         return HttpResponse(status=409)
     g = Game(session=session, gamer=1)
     g.save()
-    while Game.objects.filter(session=session)[0].gamer == 1:
-        pass
+    #while Game.objects.filter(session=session)[0].gamer == 1:
+    #    pass
 
     r = Round.objects.filter(game=session)[0]
 
