@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'TicTacToeOnline.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd7jolg6dof4eq7',
-        'USER': 'idmpmrscdznwwy',
-        'PASSWORD': 'cdb49d98cc24c2d6f9ecca7d7cecb67a19fe7468acd52a29b8c8a2ed2ef4e10f',
-        'HOST': 'ec2-54-204-14-96.compute-1.amazonaws.com',
+        'NAME': 'tictac',
+        'USER': 'camilo',
+        'PASSWORD': 'PWhffn23pPmLkBqY',
+        'HOST': '104.154.146.1',
         'PORT': '5432',
     }
 }
